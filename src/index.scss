@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  margin: 0 !important;
+  padding:0 !important;
+  // font-family: -apple-system, BlinkMacSystemFont;
+  font-family: 'Lato';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p{
+  margin: 0 !important;padding: 0 !important;
+}
+
+.border-radius{
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.w-150{
+  width: 150% !important;
+}
+
+h3{
+  margin: 0 !important;padding: 0 !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+.inline-flex{
+  display: inline-flex;
+  width: 100% !important;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.inline-flex::-webkit-scrollbar{
+  overflow: hidden;
+}
+
+.accordion-button:focus{
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed){
+  background: white !important;
+  color: #3949ab !important;
+}
+
+.width-height-60px{
+  width: 55px !important;
+  height: 55px !important;
+}
+
+.border-inactive{
+  border: 1.4px solid #9fa8da;
+}
+
+.border-active{
+  border: 2px solid #3949ab;
+}
