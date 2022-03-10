@@ -19,8 +19,8 @@ const TopNav = () => {
       }}
     >
       <div className="container d-flex justify-content-between align-items-center">
-        <div class="d-flex">
-          <p class="mx-2">
+        <div className="d-flex">
+          <p className="mx-2">
             <AiFillPhone className="mx-2" />
             {phoneNumber}
           </p>
